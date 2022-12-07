@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-  <script src="scripts.js" ></script>
+  <script src="scripts.js"></script>
   <title>Quan Portfolio</title>
 </head>
 
@@ -20,7 +20,7 @@
   <div class="intro">
     <nav class="navbar">
       <ul class="menu">
-       
+
         <a class="nav-item" href="#about"><span class="material-symbols-outlined">
             person
           </span>About me</a>
@@ -40,74 +40,74 @@
   </div>
   <section id="about">
     <h1>About me</h1>
-    
-      
-        <h2>About me and Academic Honesty</h2>
-        <em>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of
-          this assessment has been copied manually or electronically from any other source (including web sites) except
-          for the information supplied by the WEB222 instructors and / or made available in this assessment for my use.
-          I also declare that no part of this assignment has been distributed to other students.</em>
-        <p>
-          <span><strong>Date:</strong></span> Deccember 5th,2022
-        </p>
-      
-      <div class="info">
-        <h2>Basic information</h2>
-        <div class="infocontainer">
-          <div class="tag">
-            <ul>
-              <p>NAME:</p>
-              <p>AGE:</p>
-              <p>EMAIL:</p>
-              <p>LANGUAGE:</p>
-              <p>CLASS SECTION:</p>
-              <p>STUDENT ID:</p>
-              <p>INSTRUCTOR:</p>
-            </ul>
-          </div>
-          <div class="desc">
-            <ul>
-              <p>Tran Minh Quan Nguyen</p>
-              <p>19</p>
-              <p>quanmtnguyen@gmail.com</p>
-              <p>English</p>
-              <p>NAA</p>
-              <p>116796210</p>
-              <p>David Humphrey </p>
-            </ul>
-          </div>
+
+
+    <h2>About me and Academic Honesty</h2>
+    <em>I declare that my assessment is wholly my own work in accordance with Seneca Academic Policy. No part of this
+      assessment has been copied manually or electronically from any other source (including web sites) except for the
+      information supplied by the WEB222 instructors and / or made available in this assessment for my use. I also
+      declare that no part of this assignment has been distributed to other students.</em>
+    <p>
+      <span><strong>Date:</strong></span> Deccember 5th,2022
+    </p>
+
+    <div class="info">
+      <h2>Basic information</h2>
+      <div class="infocontainer">
+        <div class="tag">
+          <ul>
+            <p>NAME:</p>
+            <p>AGE:</p>
+            <p>EMAIL:</p>
+            <p>LANGUAGE:</p>
+            <p>CLASS SECTION:</p>
+            <p>STUDENT ID:</p>
+            <p>INSTRUCTOR:</p>
+          </ul>
+        </div>
+        <div class="desc">
+          <ul>
+            <p>Tran Minh Quan Nguyen</p>
+            <p>19</p>
+            <p>quanmtnguyen@gmail.com</p>
+            <p>English</p>
+            <p>NAA</p>
+            <p>116796210</p>
+            <p>David Humphrey </p>
+          </ul>
         </div>
       </div>
+    </div>
   </section>
   <section id="education">
     <h1>Education</h1>
-    
-      
-        <img src="img/hs.png" alt="symbol" />
-        <h3>High School Degree</h3>
-        <h4>Bui Thi Xuan High School</h4>
-        <p>Ho Chi Minh City</p>
-        
-      
-      
-        <img src="img/seneca.png" alt="symbol" />
-        <h3>Advanced Diploma</h3>
-        <h4>Seneca College</h4>
-        <p>Computer Programming</p>
-        <span>Fall 2021 - Winter 2023</span>
-      
-    
+
+
+    <img src="img/hs.png" alt="symbol" />
+    <h3>High School Degree</h3>
+    <h4>Bui Thi Xuan High School</h4>
+    <p>Ho Chi Minh City</p>
+
+
+
+    <img src="img/seneca.png" alt="symbol" />
+    <h3>Advanced Diploma</h3>
+    <h4>Seneca College</h4>
+    <p>Computer Programming</p>
+    <span>Fall 2021 - Winter 2023</span>
+
+
   </section>
   <h1>Skills</h1>
-    <section id="skills">
+  <section id="skills">
 
-      <img src="img/html.png" alt="">
-      <img src="img/js.png" alt="">
-      <img src="img/css.png" alt="">
-    </section>
+    <img src="img/html.png" alt="">
+    <img src="img/js.png" alt="">
+    <img src="img/css.png" alt="">
+  </section>
 
-    <section id="contact-me">
-      <h1 >Contact Me</h2>
+  <section id="contact-me">
+    <h1>Contact Me</h2>
       <form class="contact-form" action="https://httpbin.org/post" method="post">
 
         <div>
@@ -152,7 +152,7 @@
           <input type="text" name="postal" id="postal" placeholder="A1A 1A1"
             pattern="[A-Za-z][0-9][A-Za-z] [0-9][A-Za-z][0-9]" required>
         </div>
-        
+
 
         <div class="row">
           <div class="radio-field">
@@ -161,12 +161,12 @@
             <label for="Job">Job</label>
             <input type="radio" name="query" id="">
             <label for="School">School</label>
-            <input type="radio" name="query" id="other" onclick="otherMess()">
+            <input type="radio" name="query" id="other">
             <label for="other">Other</label>
 
           </div>
         </div>
-        <div id="other-message">
+        <div display=none id="other-message">
 
           <label for="other-message">Other Message</label>
           <input type="text" name="other-mess" id="other-mess">
@@ -176,15 +176,15 @@
 
           <label for="message"><span class="required-field"></span>Message</label>
           <div>
-          <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-        </div>
+            <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+          </div>
         </div>
         <div class="buttons">
           <button type="reset">Clear</button>
           <button type="submit" value="submit">Submit</button>
         </div>
       </form>
-    </section>
+  </section>
 
 </body>
 
